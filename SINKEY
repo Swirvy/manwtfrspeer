@@ -1,0 +1,71 @@
+import org.rspeer.runetek.adapter.scene.SceneObject;
+import org.rspeer.runetek.api.commons.Time;
+import org.rspeer.runetek.api.component.Dialog;
+import org.rspeer.runetek.api.component.tab.Inventory;
+import org.rspeer.runetek.api.movement.Movement;
+import org.rspeer.runetek.api.scene.Npcs;
+import org.rspeer.runetek.api.scene.Players;
+import org.rspeer.runetek.api.scene.SceneObjects;
+import org.rspeer.script.Script;
+import org.rspeer.script.ScriptMeta;
+import org.rspeer.script.ScriptCategory;
+import org.rspeer.runetek.api.component.Bank;
+import org.rspeer.ui.Log;
+import org.rspeer.runetek.adapter.scene.Player;
+import org.rspeer.runetek.api.component.Production;
+import org.rspeer.runetek.adapter.component.Item;
+import org.rspeer.runetek.adapter.scene.SceneObject;
+import org.rspeer.runetek.api.commons.Time;
+import org.rspeer.runetek.api.commons.math.Random;
+import org.rspeer.runetek.api.component.Bank;
+import org.rspeer.runetek.api.component.Production;
+import org.rspeer.runetek.api.component.tab.Inventory;
+import org.rspeer.runetek.api.movement.Movement;
+import org.rspeer.runetek.api.movement.position.Position;
+import org.rspeer.runetek.api.scene.Players;
+import org.rspeer.runetek.api.scene.SceneObjects;
+import org.rspeer.script.Script;
+import org.rspeer.script.ScriptMeta;
+import org.rspeer.script.ScriptCategory;
+
+@ScriptMeta(developer = "Andreas", desc = "Open Herb Keys", name = "KeyOpener")
+public class KeyOpener extends Script {
+
+
+
+
+    @Override
+    public void onStart() {
+
+    }
+
+    @Override
+    public int loop() {
+        Player local = Players.getLocal();
+        ScenceObject bank = ScenceObjects.Getnears.bank;
+
+        */
+        If ! sinster key inventory
+                ---bank loop prototype (telly house, heal using sippy, grand exchange)
+
+        now since sinster key in envtory, telly house, use big portal select watch tower
+                climb down ladder, climb down ladder, cut web cut cut cut if fail cut
+
+                use sin key on chest, until 6 spaces left in invy
+                pick up loot on ground, use until not sinster key
+
+
+          ty high int man {}
+
+
+
+
+        //Code in here starting from the top-down will be ran and repeated.
+        return 0; // The rate of repeat is defined by the returning int, this number represents milliseconds. 1000ms = 1 second.
+    }
+
+    @Override
+    public void onStop() {
+
+    }
+}
